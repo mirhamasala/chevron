@@ -1,0 +1,27 @@
+body {
+    background: #FAF8FA;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+}
+
+.ownership-block {
+    width: 500px;;
+    height: 300px;
+    padding: 50px;
+    margin: 0 auto;
+    background: white;
+}
+
+label {
+    position: relative;
+    display: none;
+    width: 400px;
+    height: 150px;
+    padding: 50px;
+    margin-top: 30px;
+    background: #FAF8FA;
+}
+
+#chevron:checked + label {
+    display: block;
+}
