@@ -26,3 +26,5 @@ because in CSS there are sibling selectors, `+` selects the next sibling, `~` se
 [Can I have an onclick effect in CSS?](https://stackoverflow.com/questions/13630229/can-i-have-an-onclick-effect-in-css)
 
 [Child and Sibling Selectors](https://css-tricks.com/child-and-sibling-selectors/)
+
+[How do you order your CSS properties](https://css-tricks.com/poll-results-how-do-you-order-your-css-properties/)
