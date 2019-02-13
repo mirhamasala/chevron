@@ -8,7 +8,7 @@ It’s pure CSS, no JavaScript at all. Can you tell me how I did it? Or make one
 
 The simplest form is between 10 and 20 lines of CSS. If it gets much more than that ask me and explain your process.
 
-![the_chevron](the_chevron.png)
+![chevron](chevron.png)
 
 
 ## Round 2
