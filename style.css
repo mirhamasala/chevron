@@ -28,7 +28,7 @@ body {
     display: block;
 }
 
-#edit-owners:checked + label span {
+#edit-owners:checked + .edit-owners-label span {
     transform: rotate(90deg);
 }
 
