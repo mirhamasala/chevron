@@ -29,7 +29,7 @@ body {
 }
 
 #edit-owners:checked + label span {
-    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 .owners {
