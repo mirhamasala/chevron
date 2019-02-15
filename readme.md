@@ -12,7 +12,7 @@ The simplest form is between 10 and 20 lines of CSS. If it gets much more than t
 
 ## Round 1
 
-1. The `<input type="checkbox">` is the right way to go. When a checkbox input is ‘checked’ it triggers a pseudo selector called `:checked` You can listen to `:checked` in order to hide or show elements.
+1. The `<input type="checkbox">` is the right way to go. When a checkbox input is 'checked' it triggers a pseudo selector called `:checked` You can listen to `:checked` in order to hide or show elements.
 
 2. Then there’s another thing, a label is connected by `id` to an input. That means that if you click the label, the input toggles.
 
@@ -23,7 +23,7 @@ In this case you can hide the actual input, because you don’t need it for this
 ## Final Comments
 *Q: For the owners boxes (the ones with the names), you're not using `display: flex`, right? Considering the `display: none`?*
 
-A: For the gray boxes with the owners I use `display: grid;`, in a separate nested div
+A: For the gray boxes with the owners I use `display: grid;` in a separate nested `div`
 
 ```html
 <div class="unit-new-form">
@@ -49,12 +49,15 @@ er {
 
 *Q: In your real project, did you draw the chevron using CSS?*
 
-A: In my real project I used a Font Awesome chevron <https://fontawesome.com/icons/chevron-right?style=solid>
-I normally wouldn’t draw a lot with CSS, I’d use an SVG in that case (you can also manipulate those with CSS/JavaScript) if you do want to draw with CSS then you can find a few basic shapes here, but they’re always a bit hacky <https://css-tricks.com/the-shapes-of-css/>
+A: In my real project I used a Font Awesome chevron <https://fontawesome.com/icons/chevron-right?style=solid>.
 
-Q: Any details that caught your attention while looking at my code? Naming? Use of selectors?
+I normally wouldn’t draw a lot with CSS, I’d use an SVG in that case (you can also manipulate those with CSS/JavaScript).
 
-A:Your code is fine, it’s quite an improvement in terms of structure in comparison to what you showed me earlier. I don’t really have any remarks in this, the only thing I noticed is that you used `-webkit-transform: rotate(90deg);` instead of just `transform: rotate(90deg);`
+If you do want to draw with CSS then you can find a few basic shapes here, but they’re always a bit hacky <https://css-tricks.com/the-shapes-of-css/>
+
+*Q: Any details that caught your attention while looking at my code? Naming? Use of selectors?*
+
+A: Your code is fine, it’s quite an improvement in terms of structure in comparison to what you showed me earlier. I don’t really have any remarks in this, the only thing I noticed is that you used `-webkit-transform: rotate(90deg);` instead of just `transform: rotate(90deg);`
 
 ## Resources
 [Can I have an onclick effect in CSS?](https://stackoverflow.com/questions/13630229/can-i-have-an-onclick-effect-in-css)
